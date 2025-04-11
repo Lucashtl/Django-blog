@@ -22,4 +22,3 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
-Post.objects.create(title='first blog', slug='first', author='')
